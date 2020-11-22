@@ -1,0 +1,265 @@
+/*
+*Project name: Athena-Design
+*Details:
+*Version: 1.0.0
+*Author: Team-19
+*/
+
+/*
+            =========================================
+                          Common CSS
+            =========================================
+*/
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  font-family: 'Yeseva One', cursive;
+  color: #0d052e;
+  font-size: 40px;
+}
+h4 {
+  font-size: 24px;
+  color: #0d052e;
+}
+p {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #8d8d8d;
+}
+a {
+  text-decoration: none;
+}
+.brand-btn {
+  width: 175px;
+  height: 50px;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 30px 0px 30px 0px;
+  background-image: linear-gradient(to right, #1cd8ba, #09b1e7);
+  transition: 0.5s;
+}
+.brand-btn:hover {
+  border-radius: 0px 30px 0px 30px;
+  background-image: linear-gradient(to left, #1cd8ba, #09b1e7);
+  color: white;
+}
+.brand-btn:focus {
+  outline: none;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+
+/*
+            =========================================
+                          Navbar CSS
+            =========================================
+*/
+.navbar-light .navbar-toggler-icon {
+  background-image: url(/images/menuIcon.PNG) !important;
+}
+.navbar-toggler {
+  border-color: white !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #09b1e7;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #263f44;
+}
+
+.bigText {
+  font-size: 80px;
+  font-family: 'Yeseva One', cursive;
+  color: #0d052e;
+}
+
+/*
+            =========================================
+                          What we do area CSS
+            =========================================
+*/
+
+.single-what-do-card {
+  padding: 30px 50px;
+  transition: 0.5s;
+}
+.single-what-do-card:hover {
+  background: white;
+  box-shadow: 5px 5px 10px 10px #c9f1e1;
+  border-radius: 80px 0px 80px 0px;
+}
+
+/*
+            =========================================
+                          Achievements area CSS
+            =========================================
+*/
+.achievements-right-area {
+  background-color: #ecfdf5;
+  padding: 25px 25px;
+}
+.single-achievments-right-part {
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  border-radius: 80px 0px 80px 0px;
+  transition: 0.5s;
+}
+.smile-img {
+  filter: invert(50%);
+}
+.single-achievments-right-part:hover .smile-img,
+.single-achievments-right-part:hover .achiv-img {
+  filter: brightness(90);
+}
+.single-achievments-right-part:hover {
+  border-radius: 0px 80px 0px 80px;
+  background-image: linear-gradient(to left, #1cd8ba, #09b1e7);
+  color: white;
+}
+.achievments-contect {
+  margin-left: 15px;
+}
+.achievments-contect h3 {
+  font-weight: bold;
+  color: #707070;
+  font-size: 40px;
+}
+.achievments-contect p {
+  font-family: 'Poppins', sans-serif;
+  color: #707070;
+}
+.single-achievments-right-part:hover h3,.achievments-contect p{
+  color: white;
+}
+
+/*
+            =========================================
+                          Team area CSS
+            =========================================
+*/
+
+.team-card {
+  padding: 20px 20px 20px 20px;
+  border: 1px solid white;
+  background-color: white;
+  transition: 0.5s;
+  margin-bottom: 50px;
+}
+.teamHr {
+  width: 250px;
+  border: 1px solid #3cedce;
+}
+.team-card:hover hr {
+  border: 1px solid #e3e3e3;
+}
+.team-card h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #353535;
+  font-size: 50px;
+}
+
+.team-card h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #353535;
+  font-size: 20px;
+}
+.team-card:hover hr {
+  border: 1px solid #e3e3e3;
+}
+
+.team-card:hover {
+  border: 1px solid #3cedce;
+}
+
+.team-card button {
+  visibility: hidden;
+  transition: 0.5s;
+}
+.team-card:hover button {
+  visibility: visible;
+}
+
+/*
+            =========================================
+                          Get Design area CSS
+            =========================================
+*/
+.get-input input {
+  width: 400px;
+  height: 50px;
+  padding-right: 50px;
+  padding-left: 15px;
+  border: none;
+  box-shadow: -5px 6px 18px 11px #ddd;
+  border-radius: 5px;
+}
+.get-input button {
+  margin-left: -115px;
+  height: 40px;
+  margin-top: 5px;
+  width: 105px;
+  background-image: linear-gradient(to right, #1cd8ba, #09b1e7);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.get-input button:hover {
+  background-image: linear-gradient(to left, #1cd8ba, #09b1e7);
+}
+
+/*
+            =========================================
+                          Footer area CSS
+            =========================================
+*/
+
+footer {
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*
+            =========================================
+                      Background Image CSS
+            =========================================
+*/
+.topHead {
+  background-image: url('./images/bgTop.PNG');
+  background-size: cover;
+}
+.what-do-area {
+  background-image: url('./images/bg2.PNG');
+  background-size: cover;
+}
+.stay-runing {
+  background-image: url('./images/bg3.PNG');
+  background-size: cover;
+}
+.achievements-area {
+  background-image: url('./images/b4.PNG');
+  background-size: cover;
+}
+.team-section {
+  background-image: url('./images/b5.PNG');
+  background-size: cover;
+  padding-top: 100px;
+}
+body {
+  background-color: #fafffd;
+}
